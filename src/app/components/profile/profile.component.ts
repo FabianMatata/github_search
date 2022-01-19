@@ -10,13 +10,16 @@ export class ProfileComponent implements OnInit {
   registerUserData: any ={};
   profile:any[];
   repos: any[];
-  // bio: any[];
   username:string;
-  // company:string;
-  company: any[];
-  location:string;
+  company: string;
+  // location: any[];
 
-  constructor(private profileService: ProfileService) { 
+  // interface ErrorContainer {
+  //   [prop: string]: string;
+  // }
+
+  constructor(
+    private profileService: ProfileService) { 
 
   }
 

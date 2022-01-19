@@ -8,12 +8,12 @@ import { map } from 'rxjs/operators'
 export class ProfileService {
 
   private username:string;
-  private clientid = 'f3571d8e55e169540825';
-  private clientsecret = 'a6c2b7d8f7c691e771b1908873e1322028e097c4';
+  private clientid = '';
+  private clientsecret = '';
 
   constructor(private http:HttpClient) { 
   	console.log("service is now ready!");
-  	this.username = 'kirandash';
+  	this.username = 'FabianMatata';
   }
 
   getProfileInfo(){
